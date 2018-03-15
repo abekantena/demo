@@ -1,0 +1,41 @@
+#!/usr/bin/env bash
+
+# Usage: source ./scripts/env-vars-setup
+#
+# IMPORTANT NOTES:
+# * use "source" in front of the script path, so that variables are exported in your shell
+# * the variables are set only in the current shell, run this script every time, or automate
+#   the setup using your `~/.bash_profile`.
+
+#  Prepare the environment variables used by the application.
+
+# Connection string of the DocumentDb instance where telemetry is stored
+export PCS_TELEMETRYAGENT_DOCUMENTDB_CONNSTRING="..."
+
+# URL of the telemetry web service
+export PCS_TELEMETRY_WEBSERVICE_URL="..."
+
+# URL of the PCS config web service
+export PCS_CONFIG_WEBSERVICE_URL="..."
+
+# URL of the IoT Hub manager web service
+export PCS_IOTHUBMANAGER_WEBSERVICE_URL="..."
+
+# Connection details of the Azure Blob where checkpoints are stored
+export PCS_IOTHUBREACT_AZUREBLOB_ACCOUNT="..."
+export PCS_IOTHUBREACT_AZUREBLOB_KEY="..."
+
+# see: Endpoints ⇒ Messaging ⇒ Events ⇒ "Event Hub-compatible name"
+# e.g. "my-test-hub"
+export PCS_IOTHUBREACT_HUB_NAME="..."
+
+# see: Endpoints ⇒ Messaging ⇒ Events ⇒ "Event Hub-compatible endpoint"
+# e.g. "iothub-ns-aaa-bbb-123456-abcdefghij.servicebus.windows.net"
+export PCS_IOTHUBREACT_HUB_ENDPOINT="..."
+
+# see: Endpoints ⇒ Messaging ⇒ Events ⇒ Partitions
+# e.g. 4
+export PCS_IOTHUBREACT_HUB_PARTITIONS="..."
+
+# see: "IoT Hub" ⇒ your hub ⇒ "Shared access policies"
+export PCS_IOTHUBREACT_ACCESS_CONNSTRING="..."

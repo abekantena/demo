@@ -1,0 +1,78 @@
+# You can use this file to setup the service locally, and start all the
+# containers at once.
+#
+# Usage:
+# - setup all the environment variables referenced below
+# - install Docker Compose, see https://docs.docker.com/compose/install
+# - open a console and `cd` into the folder that contains this file
+# - run `docker-compose up`
+
+version: "3"
+
+services:
+
+  storageadapter:
+    image: azureiotpcs/pcs-storage-adapter-dotnet:testing
+    ports:
+      - "9022:9022"
+    environment:
+      # Add the Document Db connection string here
+      # See https://ms.portal.azure.com/#create/Microsoft.DocumentDB
+      - PCS_STORAGEADAPTER_DOCUMENTDB_CONNSTRING
+
+  config:
+    image: azureiotpcs/pcs-config-dotnet:testing
+    depends_on:
+      - storageadapter
+    ports:
+      - "9005:9005"
+    environment:
+      - PCS_STORAGEADAPTER_WEBSERVICE_URL=http://storageadapter:9022/v1
+
+  iothubmanager:
+    image: azureiotpcs/iothub-manager-dotnet:testing
+    ports:
+      - "9002:9002"
+    environment:
+      # Add Azure IoT Hub connection string here
+      # See https://azure.microsoft.com/services/iot-hub
+      - PCS_IOTHUB_CONNSTRING
+
+  telemetry:
+    image: azureiotpcs/telemetry-java:testing
+    depends_on:
+      - storageadapter
+    ports:
+      - "9004:9004"
+    environment:
+      # Add the Document Db connection string here
+      # See https://ms.portal.azure.com/#create/Microsoft.DocumentDB
+      - PCS_TELEMETRY_DOCUMENTDB_CONNSTRING
+      - PCS_STORAGEADAPTER_WEBSERVICE_URL=http://storageadapter:9022/v1
+
+#  telemetryagent:
+#    image: azureiotpcs/telemetry-agent-java:testing
+#    depends_on:
+#      - config
+#      - iothubmanager
+#      - telemetry
+#    ports:
+#      - "9023:9023"
+#    environment:
+#      # Add the Document Db connection string here
+#      # See https://ms.portal.azure.com/#create/Microsoft.DocumentDB
+#      - PCS_TELEMETRYAGENT_DOCUMENTDB_CONNSTRING
+#      - PCS_TELEMETRY_WEBSERVICE_URL=http://telemetry:9004/v1
+#      - PCS_CONFIG_WEBSERVICE_URL=http://config:9005/v1
+#      - PCS_IOTHUBMANAGER_WEBSERVICE_URL=http://iothubmanager:9002/v1
+#      # Add Azure IoT Hub connection details here
+#      # See https://azure.microsoft.com/services/iot-hub
+#      # See https://github.com/Azure/toketi-iothubreact
+#      - PCS_IOTHUBREACT_HUB_NAME
+#      - PCS_IOTHUBREACT_HUB_ENDPOINT
+#      - PCS_IOTHUBREACT_HUB_PARTITIONS
+#      - PCS_IOTHUBREACT_ACCESS_CONNSTRING
+#      # Add Azure blob storage connection details here
+#      # See https://github.com/Azure/toketi-iothubreact
+#      - PCS_IOTHUBREACT_AZUREBLOB_ACCOUNT
+#      - PCS_IOTHUBREACT_AZUREBLOB_KEY

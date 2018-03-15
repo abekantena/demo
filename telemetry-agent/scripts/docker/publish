@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+set -e
+APP_HOME="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && cd .. && cd .. && pwd )/"
+source "$APP_HOME/scripts/.functions.sh"
+
+check_dependency_docker
+
+# Publish the container image do Docker Hub
+docker push azureiotpcs/telemetry-agent-java
+
+set +e
