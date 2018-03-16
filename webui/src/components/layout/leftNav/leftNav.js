@@ -9,7 +9,7 @@ import DashboardIcon from '../../../assets/icons/Dashboard.svg';
 import MaintenanceIcon from '../../../assets/icons/MaintenanceIcon.svg';
 import DevicesIcon from '../../../assets/icons/Devices.svg';
 import RulesIcon from '../../../assets/icons/RulesIcon.svg';
-import ContosoIcon from '../../../assets/icons/Contoso.svg';
+import ContosoIcon from '../../../assets/icons/Kantena.png';
 
 import './leftNav.css';
 
@@ -43,7 +43,7 @@ class LeftNav extends Component {
 
         <div className="leftnav-item-container">
           <div className="leftnav-item-icon">
-            <img src={ContosoIcon} className="page-title-icon" alt="ContosoIcon" />
+            <img src={ContosoIcon} className="page-title-icon" alt="KantenaIcon" />
           </div>
           <div className="leftnav-item-text">{lang.CONTOSO}</div>
         </div>

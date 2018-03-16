@@ -1,0 +1,6 @@
+{
+  "aadAppUrl": "https://portal.azure.com/mlakantena.onmicrosoft.com#blade/Microsoft_AAD_IAM/ApplicationBlade/objectId/0f48e75b-d696-416d-8b40-92eb4f66d08f/appId/56ccc90e-9f5d-48c6-a9c4-b976378a50b4",
+  "resourceGroupUrl": "https://portal.azure.com/mlakantena.onmicrosoft.com#resource/subscriptions/9c96d2fe-cc16-4f40-a787-acedb50b90a1/resourceGroups/kantena-demo",
+  "troubleshootingGuide": "https://aka.ms/iot-rm-tsg",
+  "website": "https://kantena-monitoring.azurewebsites.net"
+}

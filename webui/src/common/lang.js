@@ -48,7 +48,7 @@ const lang = {
   CONFIGPROPERTIES: 'Config Properties (properties.desired.config.*)',
   CONFIRM: 'Confirm',
   CONNECTED: 'Connected',
-  CONTOSO: 'Contoso',
+  CONTOSO: 'Kantena',
   COPY: 'COPY',
   COPY_TO_CLIPBOARD: 'Copy all properties to clipboard',
   COPY_TO_CLIPBOARD_DESCRIPTION: 'Copy a list of all properties and methods associated',
