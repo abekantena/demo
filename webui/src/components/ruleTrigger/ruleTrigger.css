@@ -1,0 +1,48 @@
+.rule-read-trigger table > thead > tr > td {
+  color: #afb9c3;
+  padding: 0 0 8px 0; }
+
+.rule-read-trigger table > tbody > tr > td {
+  border-top: 2px solid #2B2E31 !important; }
+
+.rule-trigger {
+  width: 100%; }
+  .rule-trigger .condition-row {
+    background-color: #1B1D1F;
+    margin-top: 10px;
+    clear: both;
+    height: 54px; }
+  .rule-trigger .condition-col, .rule-trigger .condition-head, .rule-trigger .condition-field, .rule-trigger .condition-action {
+    float: left;
+    color: #afb9c3; }
+  .rule-trigger .condition-head {
+    width: 28%;
+    padding-bottom: 8px; }
+  .rule-trigger .condition-field {
+    padding: 6px 8px;
+    width: 28%; }
+    .rule-trigger .condition-field .edit-input {
+      margin-top: 2px; }
+    .rule-trigger .condition-field .edit-input label {
+      color: white !important; }
+    .rule-trigger .condition-field label {
+      margin-top: 12px; }
+  .rule-trigger .condition-action {
+    width: 14%;
+    padding-bottom: 8px; }
+    .rule-trigger .condition-action .condition-action-img {
+      margin-top: 15px;
+      display: inline-block; }
+      .rule-trigger .condition-action .condition-action-img img {
+        height: 15px;
+        margin-right: 10px;
+        cursor: pointer; }
+  .rule-trigger .value {
+    height: 31px;
+    margin-top: 2px; }
+  .rule-trigger .img-show {
+    display: inline-block; }
+  .rule-trigger .img-hide {
+    display: none; }
+  .rule-trigger .editable {
+    cursor: pointer; }

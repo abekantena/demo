@@ -1,0 +1,19 @@
+@import url(../../../node_modules/c3/c3.css);
+.c3-tooltip .name, .c3-tooltip .value {
+  color: #000; }
+
+.c3-legend-item {
+  fill: #fff; }
+
+.c3-legend-item-data text {
+  fill: #afb9c3; }
+
+.c3 .c3-axis-x line,
+.c3 .c3-axis-x path,
+.c3 .c3-axis-y line,
+.c3 .c3-axis-y path {
+  stroke: #afb9c3; }
+
+.c3 .c3-axis-x g,
+.c3 .c3-axis-y g {
+  fill: #afb9c3; }

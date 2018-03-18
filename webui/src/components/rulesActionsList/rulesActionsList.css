@@ -1,0 +1,120 @@
+.rules-actions-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%; }
+  .rules-actions-container .rules-actions-button-container {
+    order: 0;
+    flex-grow: 1;
+    justify-content: space-between;
+    width: 100%; }
+    .rules-actions-container .rules-actions-button-container .cell-button {
+      display: inline-block;
+      float: none !important;
+      margin: 0 8px !important; }
+    .rules-actions-container .rules-actions-button-container .spinner-grid {
+      text-align: center;
+      margin-top: 80px;
+      height: 200px; }
+    .rules-actions-container .rules-actions-button-container .button {
+      float: right;
+      height: 40px;
+      line-height: 40px;
+      margin-right: 24px;
+      cursor: pointer; }
+      .rules-actions-container .rules-actions-button-container .button .button-icon, .rules-actions-container .rules-actions-button-container .button .delete, .rules-actions-container .rules-actions-button-container .button .add, .rules-actions-container .rules-actions-button-container .button .edit, .rules-actions-container .rules-actions-button-container .button .enable, .rules-actions-container .rules-actions-button-container .button .disable, .rules-actions-container .rules-actions-button-container .button .enableDisable, .rules-actions-container .rules-actions-button-container .button .more {
+        display: inline-block;
+        color: #afb9c3;
+        height: 14px;
+        width: 14px; }
+      .rules-actions-container .rules-actions-button-container .button .delete {
+        background: url("../../assets/icons/Delete.svg") no-repeat center;
+        background-size: contain; }
+      .rules-actions-container .rules-actions-button-container .button .add {
+        background: url("../../assets/icons/Add.svg") no-repeat center;
+        background-size: contain; }
+      .rules-actions-container .rules-actions-button-container .button .edit {
+        background: url("../../assets/icons/Edit.svg") no-repeat center;
+        background-size: contain; }
+      .rules-actions-container .rules-actions-button-container .button .enable {
+        width: 16px;
+        background: url("../../assets/icons/Enable.svg") no-repeat center;
+        background-size: contain; }
+      .rules-actions-container .rules-actions-button-container .button .disable {
+        width: 16px;
+        background: url("../../assets/icons/Disable.svg") no-repeat center;
+        background-size: contain; }
+      .rules-actions-container .rules-actions-button-container .button .enableDisable {
+        width: 16px;
+        background: url("../../assets/icons/Change_status.svg") no-repeat center;
+        background-size: contain; }
+      .rules-actions-container .rules-actions-button-container .button .more {
+        width: 18px;
+        background: url("../../assets/icons/Elipsis.svg") no-repeat center;
+        background-size: contain; }
+      .rules-actions-container .rules-actions-button-container .button .button-text {
+        display: inline-block;
+        margin-left: 8px;
+        font-size: 14px;
+        color: #afb9c3; }
+  .rules-actions-container .statusGroup, .rules-actions-container .severityGroup {
+    height: 48px; }
+    .rules-actions-container .statusGroup .statusGroup-disabled, .rules-actions-container .severityGroup .statusGroup-disabled {
+      display: inline-block;
+      background: url("../../assets/icons/DisabledRule.svg") no-repeat center;
+      background-size: contain;
+      width: 16px;
+      height: 16px; }
+    .rules-actions-container .statusGroup .statusGroup-enabled, .rules-actions-container .severityGroup .statusGroup-enabled {
+      line-height: 48px;
+      vertical-align: middle;
+      display: inline-block;
+      background: url("../../assets/icons/Enabled.svg") no-repeat center;
+      background-size: contain;
+      width: 16px;
+      height: 16px; }
+    .rules-actions-container .statusGroup .statusGroup-text-disabled, .rules-actions-container .severityGroup .statusGroup-text-disabled {
+      display: inline-block;
+      margin-left: 8px;
+      font-size: 14px;
+      color: #afb8c3; }
+    .rules-actions-container .statusGroup .statusGroup-text-enabled, .rules-actions-container .severityGroup .statusGroup-text-enabled {
+      display: inline-block;
+      margin-left: 8px;
+      font-size: 14px;
+      color: #ffffff; }
+  .rules-actions-container .severityGroup .severityGroup-text {
+    display: inline-block;
+    margin-left: 8px;
+    text-transform: capitalize;
+    font-size: 14px; }
+  .rules-actions-container .severityGroup .severityGroup-info {
+    display: inline-block;
+    background: url("../../assets/icons/Info.svg") no-repeat center;
+    background-size: contain;
+    width: 12px;
+    height: 12px; }
+  .rules-actions-container .severityGroup .severityGroup-warning {
+    display: inline-block;
+    background: url("../../assets/icons/Warning.svg") no-repeat center;
+    background-size: contain;
+    width: 12px;
+    height: 12px; }
+  .rules-actions-container .severityGroup .severityGroup-critical {
+    display: inline-block;
+    background: url("../../assets/icons/Critical.svg") no-repeat center;
+    background-size: contain;
+    width: 12px;
+    height: 12px; }
+  .rules-actions-container .spinner-container {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: black;
+    opacity: 0.4;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; }

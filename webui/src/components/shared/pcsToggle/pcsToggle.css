@@ -1,0 +1,5 @@
+.pcs-toggle {
+  height: 1.2em;
+  cursor: pointer; }
+  .pcs-toggle.disabled {
+    cursor: auto; }

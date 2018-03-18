@@ -1,0 +1,15 @@
+.sim-control-btn-container {
+  position: relative;
+  display: flex; }
+  .sim-control-btn-container .sim-tooltip {
+    display: none;
+    background-color: #242628;
+    padding: 15px 20px;
+    position: absolute;
+    top: 58px;
+    left: 0;
+    z-index: 999;
+    text-align: center;
+    color: white; }
+    .sim-control-btn-container .sim-tooltip .show {
+      display: block; }

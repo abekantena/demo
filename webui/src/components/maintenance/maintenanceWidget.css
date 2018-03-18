@@ -1,0 +1,26 @@
+/* PCS color variables */
+.maintenance-container {
+  color: #afb9c3;
+  height: 100%; }
+  .maintenance-container .selection-bar {
+    display: flex;
+    border-bottom: 1px solid; }
+    .maintenance-container .selection-bar .selection-item, .maintenance-container .selection-bar .selection-item-active {
+      padding: 5px;
+      font-weight: bold;
+      font-size: 32px;
+      margin-right: 72px; }
+      .maintenance-container .selection-bar .selection-item:hover, .maintenance-container .selection-bar .selection-item-active:hover {
+        cursor: pointer;
+        color: #fff; }
+    .maintenance-container .selection-bar .selection-item-active {
+      border-bottom: 4px solid #fff;
+      color: #fff; }
+  .maintenance-container .grid-container {
+    display: none; }
+  .maintenance-container .no-results {
+    font-size: 18px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px; }

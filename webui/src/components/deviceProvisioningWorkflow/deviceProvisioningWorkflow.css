@@ -1,0 +1,96 @@
+.provision-workflow-container input, .provision-workflow-container button {
+  outline: none; }
+
+.provision-workflow-container .form-summary-container {
+  display: flex;
+  flex-flow: column wrap;
+  border-top: 1px solid #454a4e;
+  padding-top: 24px; }
+  .provision-workflow-container .form-summary-container .form-summary-header {
+    font-size: 14pt;
+    color: #fff;
+    padding-bottom: 16px; }
+  .provision-workflow-container .form-summary-container .form-summary-details {
+    font-size: 16pt;
+    color: #afb9c3;
+    padding-bottom: 32px; }
+    .provision-workflow-container .form-summary-container .form-summary-details .device-cnt {
+      font-size: 48pt;
+      color: #fff; }
+    .provision-workflow-container .form-summary-container .form-summary-details .provisioned-device-cnt {
+      font-size: 48px;
+      color: #fff; }
+  .provision-workflow-container .form-summary-container .form-action-btns {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    padding: 8px 0px; }
+    .provision-workflow-container .form-summary-container .form-action-btns .pcs-btn {
+      height: 30px;
+      margin-left: 28px; }
+  .provision-workflow-container .form-summary-container .device-summary-container,
+  .provision-workflow-container .form-summary-container .device-summary-details {
+    width: 100%;
+    font-size: 14px; }
+  .provision-workflow-container .form-summary-container .close-btn .pcs-btn-svg {
+    height: 10px; }
+  .provision-workflow-container .form-summary-container .close-btn .pcs-btn-value {
+    font-size: 14px; }
+  .provision-workflow-container .form-summary-container .device-summary-details {
+    padding-bottom: 48px; }
+  .provision-workflow-container .form-summary-container .device-detail-container {
+    font-size: 14px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: baseline;
+    justify-content: space-between;
+    font-weight: normal; }
+  .provision-workflow-container .form-summary-container .copy-icon,
+  .provision-workflow-container .form-summary-container .check-icon {
+    height: 14px; }
+  .provision-workflow-container .form-summary-container .check-icon {
+    padding-left: 14px; }
+  .provision-workflow-container .form-summary-container .copy {
+    cursor: pointer;
+    margin-left: 16px;
+    margin-right: 32px;
+    min-width: 5%; }
+  .provision-workflow-container .form-summary-container .device-detail {
+    word-wrap: break-word;
+    min-width: 50%; }
+  .provision-workflow-container .form-summary-container .device-detail-section .pcs-content {
+    padding: 12px 10px 14px 10px;
+    width: 100%; }
+  .provision-workflow-container .form-summary-container .device-detail-section .pcs-header {
+    font-size: 16px; }
+
+.provision-workflow-container .manual-auth-key-container {
+  display: flex;
+  flex-flow: column wrap;
+  margin-left: 33px; }
+  .provision-workflow-container .manual-auth-key-container label {
+    color: #afb9c3; }
+
+.provision-workflow-container .pcs-formgroup label {
+  font-weight: normal; }
+
+.provision-workflow-container .pcs-formgroup input[type=text] {
+  border: 1px solid #3e4145;
+  padding: 2px 8px; }
+  .provision-workflow-container .pcs-formgroup input[type=text]:disabled {
+    color: #3e4145; }
+  .provision-workflow-container .pcs-formgroup input[type=text]:disabled::-webkit-input-placeholder {
+    color: #3e4145; }
+  .provision-workflow-container .pcs-formgroup input[type=text]:disabled::-moz-placeholder {
+    color: #3e4145; }
+  .provision-workflow-container .pcs-formgroup input[type=text]:disabled::-ms-placeholder {
+    color: #3e4145; }
+  .provision-workflow-container .pcs-formgroup input[type=text]:disabled::placeholder {
+    color: #3e4145; }
+  .provision-workflow-container .pcs-formgroup input[type=text].small {
+    width: 60px; }
+
+.provision-workflow-container .pcs-formgroup input[type=radio],
+.provision-workflow-container .pcs-formgroup input[type=radio] + label,
+.provision-workflow-container .pcs-formgroup input[type=radio] + input[type=text] {
+  margin-left: 10px; }

@@ -1,0 +1,11 @@
+/* PCS color variables */
+.summary-container .affected-devices {
+  margin-bottom: 30px;
+  margin-top: 10px; }
+  .summary-container .affected-devices .affected-devices-number {
+    font-size: 48px;
+    padding-right: 5px;
+    color: #fff; }
+  .summary-container .affected-devices .affected-devices-name {
+    color: #afb9c3;
+    font-size: 14px; }

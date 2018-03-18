@@ -1,0 +1,10 @@
+.deviceOrganize {
+  margin: 5px;
+  color: #000000; }
+  .deviceOrganize .marginTop20 {
+    margin-top: 20px; }
+  .deviceOrganize .btnConfirm {
+    float: right;
+    margin-top: 20px; }
+  .deviceOrganize .operation {
+    cursor: pointer; }

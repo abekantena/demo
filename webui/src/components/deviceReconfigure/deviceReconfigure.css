@@ -1,0 +1,8 @@
+.reconfigure-container .reconfigure-icon {
+  height: 14px;
+  padding-right: 4px; }
+
+.reconfigure-container .reconfigure {
+  font-size: 14px;
+  cursor: pointer;
+  color: #fff; }

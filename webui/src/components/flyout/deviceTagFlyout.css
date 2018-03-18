@@ -1,0 +1,219 @@
+/* PCS color variables */
+.device-tag-flyout-container .device-conditions-container {
+  display: flex;
+  flex-flow: row no-wrap;
+  width: 400px;
+  height: 40px;
+  margin-top: 20px;
+  background-color: #1b1d1f; }
+  .device-tag-flyout-container .device-conditions-container .device-condition {
+    display: flex;
+    margin-top: 10px;
+    padding-left: 20px;
+    color: #afb9c3;
+    font-size: 12px;
+    width: 25%;
+    overflow: hidden; }
+
+.device-tag-flyout-container .sub-heading {
+  color: #fff;
+  font-size: 16px;
+  padding-top: 32px;
+  padding-bottom: 16px; }
+
+.device-tag-flyout-container .sub-class-heading {
+  color: #afb9c3;
+  font-size: 14px;
+  padding-bottom: 5px; }
+
+.device-tag-flyout-container .job-name-container {
+  margin-top: 24px; }
+  .device-tag-flyout-container .job-name-container input {
+    width: 248px !important;
+    height: 24px !important; }
+
+.device-tag-flyout-container .jobname-reference {
+  display: flex;
+  font-size: 13px;
+  color: #afb9c3;
+  padding-top: 5px;
+  font-weight: normal; }
+  .device-tag-flyout-container .jobname-reference .asterisk {
+    font-size: 26px;
+    margin-top: -5px; }
+
+.device-tag-flyout-container .style-manage {
+  font-size: 12px;
+  font-weight: normal; }
+
+.device-tag-flyout-container .label-key {
+  color: #afb9c3;
+  font-size: 14px;
+  font-weight: normal;
+  margin-bottom: 10px; }
+
+.device-tag-flyout-container .add-device-tag {
+  color: #afb9c3;
+  font-size: 14px; }
+
+.device-tag-flyout-container .device-tag-condition {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px; }
+  .device-tag-flyout-container .device-tag-condition .device-tag-conditions-header {
+    color: #afb9c3;
+    font-size: 12px;
+    width: 300px; }
+
+.device-tag-flyout-container .device-tag-inner-conditions {
+  background-color: #1b1d1f;
+  margin-top: 16px;
+  width: 400px; }
+  .device-tag-flyout-container .device-tag-inner-conditions .add-icon-name-container {
+    margin-left: 5px;
+    padding-top: 10px;
+    height: 40px; }
+    .device-tag-flyout-container .device-tag-inner-conditions .add-icon-name-container .add-icon {
+      width: 10px;
+      margin-right: 3px;
+      margin-bottom: 5px; }
+    .device-tag-flyout-container .device-tag-inner-conditions .add-icon-name-container .add-device-tag {
+      font-size: 14px; }
+  .device-tag-flyout-container .device-tag-inner-conditions .all-conditions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+    .device-tag-flyout-container .device-tag-inner-conditions .all-conditions .condition-name,
+    .device-tag-flyout-container .device-tag-inner-conditions .all-conditions .condition-value,
+    .device-tag-flyout-container .device-tag-inner-conditions .all-conditions .condition-type {
+      margin-top: 16px;
+      margin-bottom: 10px;
+      background-color: #1b1d1f;
+      height: 40px;
+      padding: 10px;
+      color: #afb9c3;
+      font-size: 12px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      width: 85px !important;
+      margin-right: 10px;
+      border: 1px solid #3e4145;
+      padding-left: 5px; }
+      .device-tag-flyout-container .device-tag-inner-conditions .all-conditions .condition-name:hover,
+      .device-tag-flyout-container .device-tag-inner-conditions .all-conditions .condition-value:hover,
+      .device-tag-flyout-container .device-tag-inner-conditions .all-conditions .condition-type:hover {
+        border: 1px solid #afb9c3; }
+    .device-tag-flyout-container .device-tag-inner-conditions .all-conditions .delete-icon {
+      margin-top: 28px; }
+
+.device-tag-flyout-container .delete-icon {
+  height: 12px; }
+
+.device-tag-flyout-container .summary-container {
+  margin-top: 24px;
+  border-top: 1px solid #454a4e;
+  padding-top: 10px; }
+
+.device-tag-flyout-container .effective-devices {
+  margin-top: 24px;
+  color: #afb9c3;
+  font-size: 12px; }
+
+.device-tag-flyout-container .button-container {
+  display: flex;
+  justify-content: flex-end; }
+  .device-tag-flyout-container .button-container .pcs-btn {
+    height: 30px;
+    margin-left: 28px; }
+
+.device-tag-flyout-container .common-tags .name-value-type {
+  display: flex;
+  justify-content: space-around;
+  height: 40px;
+  align-items: center;
+  margin-top: 16px;
+  width: 400px;
+  background-color: #1b1d1f; }
+
+.device-tag-flyout-container .common-tags .value-for-existed-data {
+  width: 85px !important;
+  border: none; }
+  .device-tag-flyout-container .common-tags .value-for-existed-data:hover {
+    border-color: #afb9c3; }
+  .device-tag-flyout-container .common-tags .value-for-existed-data:focus {
+    border: 1px solid #afb9c3; }
+
+.device-tag-flyout-container input {
+  font-size: 12px;
+  font-weight: normal;
+  margin-top: 2px;
+  padding-left: 15px; }
+  .device-tag-flyout-container input:hover, .device-tag-flyout-container input:active, .device-tag-flyout-container input:focus {
+    border: 1px solid #afb9c3 !important; }
+
+.device-tag-flyout-container .device-tag-type {
+  width: 80px;
+  height: 40px;
+  font-size: 12px;
+  display: inline-block;
+  vertical-align: center;
+  border: 1px solid #3e4145;
+  margin-top: 15px; }
+  .device-tag-flyout-container .device-tag-type .Select-menu-outer {
+    border: 1px solid #afb9c3;
+    width: 80px;
+    margin-left: 5px;
+    padding-top: 3px; }
+  .device-tag-flyout-container .device-tag-type .Select-control {
+    height: 39px !important; }
+  .device-tag-flyout-container .device-tag-type .Select-clear-zone {
+    display: none; }
+  .device-tag-flyout-container .device-tag-type .Select-arrow-zone {
+    top: 3px; }
+  .device-tag-flyout-container .device-tag-type .Select,
+  .device-tag-flyout-container .device-tag-type .Select div,
+  .device-tag-flyout-container .device-tag-type .Select input,
+  .device-tag-flyout-container .device-tag-type .Select span {
+    background-color: #1b1d1f;
+    color: #afb9c3;
+    font-weight: normal;
+    margin-top: 0px; }
+  .device-tag-flyout-container .device-tag-type .Select--single > .Select-control .Select-value {
+    background-color: #1b1d1f; }
+
+.device-tag-flyout-container .no-common-tags {
+  font-size: 14px;
+  margin-top: 20px; }
+
+.device-tag-flyout-container .no-common-tags-sub-class {
+  font-size: 12px;
+  color: #afb9c3; }
+
+.device-tag-flyout-container .effective-devices {
+  margin-bottom: 30px;
+  margin-top: 10px; }
+  .device-tag-flyout-container .effective-devices .no-affected-devices {
+    font-size: 48px;
+    padding-right: 5px;
+    color: #fff; }
+  .device-tag-flyout-container .effective-devices .affected-devices-name {
+    color: #afb9c3;
+    font-size: 14px; }
+
+.device-tag-flyout-container .device-tag-items {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+  height: 40px;
+  background-color: #1b1d1f; }
+  .device-tag-flyout-container .device-tag-items .device-tag {
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+    color: #afb9c3;
+    font-size: 12px;
+    width: 25%;
+    overflow: hidden;
+    padding-left: 20px;
+    padding-right: 20px; }

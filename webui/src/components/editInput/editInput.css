@@ -1,0 +1,78 @@
+/* PCS color variables */
+.edit-input input:not([type=radio]),
+.edit-input textarea,
+.edit-input select {
+  border: 1px #454a4e solid;
+  background-color: #1b1d1f;
+  width: 100%;
+  color: #afb9c3;
+  padding: 0px 8px; }
+
+.edit-input .radio:not(:last-child) label {
+  margin-bottom: 16px; }
+
+.edit-input textarea {
+  padding: 7px 8px; }
+
+.edit-input input::-webkit-input-placeholder,
+.edit-input textarea::-webkit-input-placeholder {
+  color: #afb9c3; }
+
+.edit-input input:-moz-placeholder,
+.edit-input textarea:-moz-placeholder {
+  color: #afb9c3; }
+
+.edit-input label {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin: 0; }
+
+.edit-input .radio-img {
+  margin-right: 5px;
+  height: 10px;
+  width: 10px;
+  display: inline-block; }
+  .edit-input .radio-img img {
+    height: 100%;
+    width: 100%; }
+
+.edit-input .field-select .Select-control {
+  background-color: #1b1d1f;
+  border: 1px solid #454a4e !important;
+  padding: 0px 3px 0px 8px !important;
+  margin-bottom: 2px;
+  vertical-align: middle !important;
+  height: 10px; }
+  .edit-input .field-select .Select-control input {
+    border: none; }
+
+.edit-input .field-select .Select {
+  width: 100% !important;
+  margin-top: 0px !important; }
+
+.edit-input .field-select .Select-placeholder,
+.edit-input .field-select .Select-value,
+.edit-input .field-select .Select-arrow-zone {
+  padding-top: 2px !important;
+  line-height: 21px !important; }
+
+.edit-input .field-select .Select-menu-outer {
+  border: 1px solid #454a4e !important;
+  width: 100%;
+  margin-left: 1px !important;
+  max-height: 200px !important; }
+
+.edit-input .field-select .Select-input {
+  margin-left: -16px;
+  padding-top: 2px; }
+
+.edit-input .field-select .Select-placeholder,
+.edit-input .field-select .Select--single > .Select-control .Select-value {
+  padding: 0px 10px;
+  line-height: 21px !important;
+  top: 5px; }
+
+.edit-input .field-select .Select-clear {
+  display: none; }

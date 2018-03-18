@@ -1,0 +1,21 @@
+.alarmCounter {
+  text-align: center;
+  height: 100%;
+  background-color: #ffffff;
+  margin: 5px;
+  overflow: hidden; }
+
+.alarmCounterTitle {
+  text-align: center;
+  height: 20px;
+  margin: 5px; }
+
+.alarmCounterContent {
+  height: calc(100% - 20px - 5px);
+  display: table;
+  width: 100%; }
+  .alarmCounterContent div {
+    font-weight: bold;
+    font-size: 1.3em;
+    display: table-cell;
+    vertical-align: middle; }

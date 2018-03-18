@@ -1,0 +1,14 @@
+.add-device .device-tag-conditions {
+  margin-left: 10px;
+  margin-right: 10px; }
+
+.add-device .device-tag-flyout {
+  background-color: #000; }
+
+.add-device .tag-icon {
+  width: 16px;
+  margin-right: 3px; }
+
+.add-device .tag-name {
+  color: #ffffff;
+  cursor: pointer; }

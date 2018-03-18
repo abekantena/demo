@@ -1,0 +1,58 @@
+.flyout-wrapper {
+  position: fixed;
+  top: 48px;
+  right: 0px;
+  width: 500px;
+  bottom: 0px;
+  display: flex;
+  flex-flow: column nowrap;
+  transition-duration: 0.1s;
+  transition-timing-function: ease;
+  background-color: #121416;
+  color: #afb9c3;
+  padding: 0;
+  z-index: 1001;
+  box-shadow: -3px 3px 14px rgba(0, 0, 0, 0.9);
+  animation: 0.2s ease 0s 1 slideInFromRight; }
+  .flyout-wrapper .flyout-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    border-top: 1px solid #454a4e;
+    border-bottom: 1px solid #454a4e;
+    height: 50px;
+    flex-shrink: 0; }
+    .flyout-wrapper .flyout-header .flyout-title {
+      padding-left: 20px;
+      line-height: 50px;
+      font-size: 16px; }
+    .flyout-wrapper .flyout-header .flyout-actions {
+      display: flex;
+      flex-flow: row nowrap;
+      flex-grow: 1;
+      justify-content: flex-end;
+      padding-right: 5px; }
+      .flyout-wrapper .flyout-header .flyout-actions > button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent;
+        border: 0;
+        height: 48px;
+        width: 48px;
+        outline: none; }
+        .flyout-wrapper .flyout-header .flyout-actions > button > img {
+          height: 50%;
+          width: 50%; }
+  .flyout-wrapper .flyout-content {
+    flex-grow: 1;
+    overflow: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px; }
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%); }
+  100% {
+    transform: translateX(0); } }

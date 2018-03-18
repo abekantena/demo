@@ -1,0 +1,86 @@
+.rule-editor {
+  padding: 16px 0;
+  height: calc(100% - 48px);
+  overflow-y: auto; }
+  .rule-editor .rule-editor-body {
+    color: white;
+    margin-right: 8px; }
+    .rule-editor .rule-editor-body .rule-editor-item {
+      margin-top: 8px; }
+    .rule-editor .rule-editor-body .item-title {
+      margin: 16px 0; }
+    .rule-editor .rule-editor-body .item-divider {
+      margin-top: 32px;
+      height: 2px;
+      width: 100%;
+      background-color: #6A737C; }
+    .rule-editor .rule-editor-body .show {
+      display: block; }
+    .rule-editor .rule-editor-body .hide {
+      display: none; }
+    .rule-editor .rule-editor-body label {
+      font-weight: normal; }
+    .rule-editor .rule-editor-body .edit-icon {
+      float: right;
+      margin-right: 64px;
+      cursor: pointer; }
+    .rule-editor .rule-editor-body .icon {
+      height: 15px;
+      cursor: pointer;
+      margin-right: 5px;
+      float: left; }
+      .rule-editor .rule-editor-body .icon img {
+        height: 100%; }
+    .rule-editor .rule-editor-body .input {
+      width: 50%;
+      height: 36px; }
+    .rule-editor .rule-editor-body .textarea {
+      width: 70%; }
+    .rule-editor .rule-editor-body .name-wrapper {
+      display: inline-block;
+      width: 50%; }
+      .rule-editor .rule-editor-body .name-wrapper .input {
+        width: 100%; }
+    .rule-editor .rule-editor-body .description, .rule-editor .rule-editor-body .help-text {
+      color: #afb9c3; }
+    .rule-editor .rule-editor-body .description {
+      margin-bottom: 16px; }
+    .rule-editor .rule-editor-body .help-text {
+      display: block;
+      margin-bottom: 8px;
+      font-size: 12px; }
+    .rule-editor .rule-editor-body .marginTop24 {
+      margin-top: 20px; }
+    .rule-editor .rule-editor-body .marginTop32 {
+      margin-top: 32px; }
+    .rule-editor .rule-editor-body .ruleTip {
+      position: relative; }
+      .rule-editor .rule-editor-body .ruleTip .help-text {
+        display: inline-block; }
+    .rule-editor .rule-editor-body .device-count {
+      font-size: 32px;
+      font-weight: 600;
+      margin-right: 5px; }
+  .rule-editor .rule-editor-btns {
+    margin-top: 64px; }
+    .rule-editor .rule-editor-btns .btn-tool-bar {
+      float: right; }
+      .rule-editor .rule-editor-btns .btn-tool-bar .button {
+        background-color: transparent;
+        display: inline-block;
+        padding: 6px 12px;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        cursor: pointer;
+        border: 1px solid transparent;
+        margin-left: 15px; }
+      .rule-editor .rule-editor-btns .btn-tool-bar .button:hover {
+        background-color: #AEB8C3;
+        color: white; }
+      .rule-editor .rule-editor-btns .btn-tool-bar .cancel-icon {
+        height: 15px;
+        width: 15px; }
+      .rule-editor .rule-editor-btns .btn-tool-bar .apply-icon {
+        height: 20px;
+        width: 20px; }

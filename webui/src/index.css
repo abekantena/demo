@@ -1,0 +1,49 @@
+/* A helper file containing variables for the selawik font family names */
+/* Font face definitions for the Selawik font */
+@font-face {
+  font-family: "Selawik";
+  src: url("./assets/fonts/selawk.eot");
+  src: url("./assets/fonts/selawk.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/selawk.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Selawik Bold";
+  src: url("./assets/fonts/selawkb.eot");
+  src: url("./assets/fonts/selawkb.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/selawkb.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Selawik Light";
+  src: url("./assets/fonts/selawkl.eot");
+  src: url("./assets/fonts/selawkl.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/selawkl.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Selawik Semibold";
+  src: url("./assets/fonts/selawksb.eot");
+  src: url("./assets/fonts/selawksb.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/selawksb.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Selawik Semilight";
+  src: url("./assets/fonts/selawksl.eot");
+  src: url("./assets/fonts/selawksl.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/selawksl.ttf") format("truetype"); }
+
+/* PCS color variables */
+html, body {
+  width: 100%;
+  height: 100%;
+  font-family: "Selawik"; }
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden; }
+
+input,
+textarea,
+button {
+  outline: none; }
+
+#root {
+  height: 100%; }
+
+input {
+  background-color: #1b1d1f;
+  border: 1px solid #454a4e; }

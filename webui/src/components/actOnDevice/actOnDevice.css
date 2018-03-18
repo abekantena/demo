@@ -1,0 +1,4 @@
+.act-on-device-container {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: stretch; }

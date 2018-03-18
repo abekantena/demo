@@ -1,0 +1,31 @@
+/* PCS color variables */
+.drawer-wrapper {
+  padding: 5px 0px 0px 5px; }
+  .drawer-wrapper .drawer-content {
+    padding: 10px; }
+  .drawer-wrapper .drawer-description {
+    padding: 5px;
+    color: #afb9c3;
+    font-size: xx-small; }
+  .drawer-wrapper .drawer-header {
+    padding: 5px 0px 0px 5px;
+    border-top: 1px solid #454a4e;
+    justify-content: space-between;
+    display: flex;
+    cursor: pointer; }
+    .drawer-wrapper .drawer-header:hover {
+      color: #fff; }
+    .drawer-wrapper .drawer-header .chevron-close,
+    .drawer-wrapper .drawer-header .chevron-open {
+      height: 16px;
+      width: 16px;
+      margin-left: 15px;
+      margin-right: 8px; }
+    .drawer-wrapper .drawer-header .chevron-close {
+      -ms-transform: rotate(-90deg);
+      -webkit-transform: rotate(-90deg);
+      transform: rotate(-90deg); }
+    .drawer-wrapper .drawer-header .chevron-open {
+      -ms-transform: rotate(90deg);
+      -webkit-transform: rotate(90deg);
+      transform: rotate(90deg); }

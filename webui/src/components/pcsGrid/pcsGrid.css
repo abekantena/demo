@@ -1,0 +1,107 @@
+/*
+This file contains a class pcs-ag-dark that when combined with the ag-dark 
+theme from AgGrid updates the ag-dark theme to match the PCS grid theme
+*/
+/* A helper file containing variables for the selawik font family names */
+.pcs-grid-container.ag-dark.pcs-ag-dark {
+  background-color: #121416;
+  position: relative;
+  font-family: "Selawik";
+  /* Remove three pixels to offset the parent padding for font alignment */ }
+  .pcs-grid-container.ag-dark.pcs-ag-dark ::-webkit-scrollbar {
+    width: 6px;
+    height: 4px;
+    background: #242628; }
+    .pcs-grid-container.ag-dark.pcs-ag-dark ::-webkit-scrollbar-thumb {
+      background-color: #242628;
+      padding-top: 16px; }
+  .pcs-grid-container.ag-dark.pcs-ag-dark ::-webkit-scrollbar-corner {
+    background: #242628; }
+  .pcs-grid-container.ag-dark.pcs-ag-dark > .pcs-grid-loading-container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 20px 0px; }
+    .pcs-grid-container.ag-dark.pcs-ag-dark > .pcs-grid-loading-container + div {
+      visibility: hidden;
+      height: 1px; }
+  .pcs-grid-container.ag-dark.pcs-ag-dark .ag-root {
+    border: none; }
+  .pcs-grid-container.ag-dark.pcs-ag-dark .ag-row,
+  .pcs-grid-container.ag-dark.pcs-ag-dark .ag-body,
+  .pcs-grid-container.ag-dark.pcs-ag-dark .ag-body-viewport,
+  .pcs-grid-container.ag-dark.pcs-ag-dark .ag-row-even,
+  .pcs-grid-container.ag-dark.pcs-ag-dark .ag-row-odd {
+    background-color: #121416; }
+  .pcs-grid-container.ag-dark.pcs-ag-dark .ag-cell-focus {
+    border: none;
+    outline: none;
+    text-transform: capitalize; }
+  .pcs-grid-container.ag-dark.pcs-ag-dark .ag-cell {
+    background-color: #1b1d1f;
+    text-transform: capitalize;
+    border: none !important;
+    color: #fff;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 2px; }
+    .pcs-grid-container.ag-dark.pcs-ag-dark .ag-cell:first-child {
+      border-left: 4px solid #1b1d1f !important; }
+  .pcs-grid-container.ag-dark.pcs-ag-dark .ag-row {
+    height: 48px;
+    cursor: pointer; }
+    .pcs-grid-container.ag-dark.pcs-ag-dark .ag-row.ag-row-hover .ag-cell,
+    .pcs-grid-container.ag-dark.pcs-ag-dark .ag-row.ag-row-focus .ag-cell {
+      border-color: #242628 !important;
+      background-color: #242628; }
+    .pcs-grid-container.ag-dark.pcs-ag-dark .ag-row.pcs-row-soft-selected .ag-cell {
+      background-color: #242628 !important;
+      border-color: #7065fd !important; }
+  .pcs-grid-container.ag-dark.pcs-ag-dark .ag-body-container .ag-row-selected .ag-cell,
+  .pcs-grid-container.ag-dark.pcs-ag-dark .ag-pinned-left-cols-container .ag-row-selected .ag-cell {
+    background-color: #242628 !important;
+    border-color: #7065fd !important; }
+  .pcs-grid-container.ag-dark.pcs-ag-dark .ag-header {
+    background-color: #121416;
+    color: #9fa8b1;
+    border: none;
+    height: 40px; }
+    .pcs-grid-container.ag-dark.pcs-ag-dark .ag-header:first-child {
+      border-left: 4px solid transparent !important; }
+  .pcs-grid-container.ag-dark.pcs-ag-dark .ag-header-cell {
+    text-align: left;
+    text-transform: uppercase;
+    border: none;
+    line-height: 48px; }
+  .pcs-grid-container.ag-dark.pcs-ag-dark .ag-selection-checkbox {
+    padding-right: 8px;
+    padding-left: 8px; }
+  .pcs-grid-container.ag-dark.pcs-ag-dark .ag-header-cell-label {
+    padding: 0 4px; }
+  .pcs-grid-container.ag-dark.pcs-ag-dark .ag-cell-no-focus.ag-cell.ag-cell-not-inline-editing.ag-cell-value {
+    text-transform: capitalize;
+    border-bottom: none; }
+  .pcs-grid-container.ag-dark.pcs-ag-dark .ag-cell-last-left-pinned.ag-cell-no-focus,
+  .pcs-grid-container.ag-dark.pcs-ag-dark .ag-ltr .ag-cell-no-focus {
+    border-right: none; }
+  .pcs-grid-container.ag-dark.pcs-ag-dark .ag-header-select-all {
+    line-height: 37px;
+    padding-left: 10px; }
+  .pcs-grid-container.ag-dark.pcs-ag-dark .ag-paging-panel {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    padding: 0;
+    color: #9fa8b1; }
+    .pcs-grid-container.ag-dark.pcs-ag-dark .ag-paging-panel .ag-paging-row-summary-panel {
+      display: none; }
+    .pcs-grid-container.ag-dark.pcs-ag-dark .ag-paging-panel .ag-paging-button {
+      border: none;
+      background-color: transparent;
+      color: #9fa8b1;
+      padding: 6px 8px; }
+      .pcs-grid-container.ag-dark.pcs-ag-dark .ag-paging-panel .ag-paging-button:hover {
+        background-color: #1b1d1f;
+        color: #fff; }
+  .pcs-grid-container.ag-dark.pcs-ag-dark .ag-header-cell-moving {
+    background-color: #121416; }

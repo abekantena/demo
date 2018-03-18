@@ -1,0 +1,203 @@
+/* PCS color variables */
+.manage-filter-container {
+  overflow: auto; }
+  .manage-filter-container .flyout-footer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 48px; }
+    .manage-filter-container .flyout-footer .pcs-btn {
+      height: 30px;
+      margin-left: 28px; }
+  .manage-filter-container .create-filter {
+    margin-top: 20px;
+    margin-bottom: 48px !important;
+    padding: 10px 0px 10px 16px;
+    cursor: pointer; }
+  .manage-filter-container .new-filter-container {
+    padding-bottom: 8px;
+    padding-top: 8px; }
+    .manage-filter-container .new-filter-container .newfilter-add-icon {
+      width: 14px;
+      margin-top: -2px;
+      margin-right: 8px; }
+  .manage-filter-container .headers-for-deviceGroups {
+    padding: 10px 24px 10px 16px; }
+    .manage-filter-container .headers-for-deviceGroups .actions {
+      float: right; }
+  .manage-filter-container ::placeholder,
+  .manage-filter-container :-ms-input-placeholder,
+  .manage-filter-container ::-ms-input-placeholder,
+  .manage-filter-container .Select-input-placeholder {
+    color: #afb9c3; }
+  .manage-filter-container .group-filter-wrapper {
+    margin-bottom: 48px; }
+  .manage-filter-container .groupname-icons {
+    height: 40px;
+    padding: 8px 16px 8px 16px;
+    font-size: 14px;
+    margin-bottom: 8px;
+    background-color: #1b1d1f; }
+    .manage-filter-container .groupname-icons .edit-delete-icons {
+      float: right; }
+      .manage-filter-container .groupname-icons .edit-delete-icons .edit-icon {
+        padding-right: 4px; }
+      .manage-filter-container .groupname-icons .edit-delete-icons .delete-icon {
+        padding-left: 4px; }
+  .manage-filter-container ::-webkit-scrollbar {
+    width: 6px; }
+  .manage-filter-container ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 2px !important; }
+  .manage-filter-container ::-webkit-scrollbar-thumb {
+    border-radius: 2px !important;
+    -webkit-box-shadow: inset 0 0 6px rgba(175, 185, 195, 0.6); }
+  .manage-filter-container .editable-filters {
+    font-size: 10px !important;
+    background-color: #1b1d1f;
+    padding: 5px 0px 32px 20px;
+    margin: 16px 1px 8px 1px; }
+    .manage-filter-container .editable-filters .editable-filters-wrapper {
+      border-bottom: 1px solid #121416;
+      padding-bottom: 16px;
+      margin-right: 16px !important; }
+  .manage-filter-container input {
+    background-color: #1b1d1f; }
+  .manage-filter-container .label-names {
+    font-size: 14px;
+    padding-top: 16px;
+    padding-bottom: 8px;
+    font-weight: normal !important; }
+  .manage-filter-container .add-condition,
+  .manage-filter-container .remove-condition {
+    border: none;
+    border-top: 1px solid #121416 !important;
+    background-color: #1b1d1f;
+    display: inline-block;
+    margin-top: 8px;
+    display: flex;
+    justify-content: start;
+    height: 40px;
+    width: 421px;
+    font-size: 14px !important;
+    margin-left: -10px; }
+    .manage-filter-container .add-condition:hover, .manage-filter-container .add-condition:active, .manage-filter-container .add-condition:focus,
+    .manage-filter-container .remove-condition:hover,
+    .manage-filter-container .remove-condition:active,
+    .manage-filter-container .remove-condition:focus {
+      border-top: 1px solid #121416 !important; }
+  .manage-filter-container .add-condition {
+    border-bottom: 1px solid #121416 !important; }
+  .manage-filter-container .Select-input {
+    height: 25px !important; }
+  .manage-filter-container .Select-input-placeholder {
+    color: #afb9c3; }
+  .manage-filter-container .conditions-wrapper {
+    display: inline-block; }
+  .manage-filter-container .cancel-button {
+    background-color: #1b1d1f;
+    border: none;
+    padding: 5px 16px 5px 16px;
+    margin-left: 48px;
+    margin-right: 16px; }
+    .manage-filter-container .cancel-button:hover {
+      background-color: #afb9c3;
+      color: #1b1d1f; }
+  .manage-filter-container .buttons-group {
+    margin-bottom: 32px;
+    font-size: 14px;
+    margin-top: 19px; }
+    .manage-filter-container .buttons-group .save-delete-cancel-buttons {
+      float: right; }
+  .manage-filter-container .cancel-icon {
+    height: 18px;
+    margin-top: 2px;
+    padding-right: 8px; }
+    .manage-filter-container .cancel-icon:hover {
+      color: #1b1d1f; }
+  .manage-filter-container .save {
+    background-color: #1b1d1f;
+    border: none;
+    padding: 5px 16px 5px 16px;
+    margin-left: 5px;
+    font-size: 14px; }
+    .manage-filter-container .save:hover {
+      background-color: #afb9c3;
+      color: #1b1d1f; }
+  .manage-filter-container .delete-filter {
+    background-color: #1b1d1f;
+    border: none;
+    height: 32px;
+    padding: 5px 16px 5px 16px;
+    margin-left: 5px;
+    font-size: 14px;
+    padding-left: 5px; }
+    .manage-filter-container .delete-filter:hover {
+      background-color: #afb9c3;
+      color: #1b1d1f; }
+  .manage-filter-container .apply-icon {
+    padding-right: 8px;
+    padding-left: 5px;
+    height: 10px; }
+  .manage-filter-container .edit-icon,
+  .manage-filter-container .add-icon,
+  .manage-filter-container .delete-icon {
+    cursor: pointer;
+    height: 14px; }
+  .manage-filter-container .add-icon {
+    margin-right: 8px;
+    margin-top: 4px; }
+  .manage-filter-container .error-msg {
+    color: red; }
+  .manage-filter-container .style-manage {
+    font-size: 14px !important;
+    border: 1px solid #454a4e !important;
+    padding: 3px 3px 3px 8px !important;
+    height: 29px !important;
+    width: 280px !important;
+    font-weight: normal; }
+    .manage-filter-container .style-manage:hover, .manage-filter-container .style-manage:focus {
+      border-color: #afb9c3 !important; }
+  .manage-filter-container ::-webkit-input-placeholder {
+    color: #afb9c3; }
+  .manage-filter-container .conditions-wrapper .Select-control {
+    background-color: #1b1d1f !important;
+    font-size: 10px !important;
+    border: 1px solid #454a4e !important;
+    padding-left: 8px !important;
+    vertical-align: middle !important;
+    height: 10px;
+    margin-top: 0px !important; }
+    .manage-filter-container .conditions-wrapper .Select-control:hover, .manage-filter-container .conditions-wrapper .Select-control:focus {
+      border-color: #afb9c3 !important; }
+  .manage-filter-container .conditions-wrapper .Select-placeholder,
+  .manage-filter-container .conditions-wrapper .Select--single > .Select-control .Select-value {
+    padding: 0px 10px;
+    line-height: 24px;
+    font-size: 14px;
+    font-weight: normal; }
+  .manage-filter-container .conditions-wrapper .Select-input {
+    padding-left: 2px; }
+  .manage-filter-container .conditions-wrapper .Select-value-label {
+    font-size: 14px;
+    font-weight: normal; }
+  .manage-filter-container .conditions-wrapper .Select {
+    width: 280px !important; }
+  .manage-filter-container .conditions-wrapper .Select-arrow-zone {
+    top: 3px;
+    vertical-align: center; }
+  .manage-filter-container .conditions-wrapper .Select-menu {
+    max-height: 200px !important;
+    font-size: 14px !important;
+    font-weight: normal; }
+  .manage-filter-container .conditions-wrapper .Select-menu-outer {
+    border: 1px solid #454A4E !important;
+    width: 280px;
+    margin-left: 0px !important;
+    max-height: 200px; }
+    .manage-filter-container .conditions-wrapper .Select-menu-outer .Select-clear {
+      display: none; }
+  .manage-filter-container .save-delete-cancel-buttons .loading-spinner {
+    margin-right: 30px !important;
+    display: inline-block; }
+  .manage-filter-container .create-filter-icon {
+    margin-top: -2px; }

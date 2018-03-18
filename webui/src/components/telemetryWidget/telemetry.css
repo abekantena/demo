@@ -1,0 +1,34 @@
+@import url(../../../node_modules/c3/c3.css);
+.telemetry-panel-container .telemetry-panel.telemetry-panel-default {
+  background-color: #1b1d1f;
+  color: #afb9c3; }
+  .telemetry-panel-container .telemetry-panel.telemetry-panel-default .telemetry-panel-heading {
+    background-color: #242628;
+    padding: 5px;
+    height: 48px; }
+  .telemetry-panel-container .telemetry-panel.telemetry-panel-default label.radio-inline {
+    margin-left: 29px; }
+
+.telemetry-panel-container .c3 .c3-axis-y text,
+.telemetry-panel-container .c3 .c3-axis-x text,
+.telemetry-panel-container .c3 .c3-axis-x line,
+.telemetry-panel-container .c3 .c3-axis-y line,
+.telemetry-panel-container .c3 .c3-legend-item text {
+  fill: #afb9c3; }
+
+.telemetry-panel-container .c3 .c3-axis-y path,
+.telemetry-panel-container .c3 .c3-axis-x path {
+  stroke: #afb9c3; }
+
+.telemetry-panel-container .pause-button {
+  text-transform: capitalize;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #353535; }
+  .telemetry-panel-container .pause-button:hover {
+    background-color: #545454; }
+
+.telemetry-panel-container .telemetry-btn-group {
+  color: #afb9c3; }
+  .telemetry-panel-container .telemetry-btn-group .btn-selected {
+    color: #fff; }

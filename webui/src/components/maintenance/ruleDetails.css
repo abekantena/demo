@@ -1,0 +1,64 @@
+/* PCS color variables */
+.rule-details-container {
+  color: #afb9c3;
+  height: 100%; }
+  .rule-details-container .timerange-selection {
+    display: flex;
+    justify-content: flex-end; }
+    .rule-details-container .timerange-selection .Select {
+      width: 150px;
+      margin-top: -15px; }
+    .rule-details-container .timerange-selection .last-refresed-time {
+      margin-left: 5px;
+      margin-right: 5px;
+      color: #fff; }
+    .rule-details-container .timerange-selection .refresh-icon {
+      background: url("../../assets/icons/Refresh.svg") no-repeat center;
+      background-size: contain; }
+    .rule-details-container .timerange-selection .icon-sm {
+      width: 14px;
+      height: 14px; }
+  .rule-details-container .section-header {
+    color: #fff;
+    margin-bottom: 10px;
+    margin-top: 10px; }
+  .rule-details-container .aggregated-rule {
+    display: flex; }
+    .rule-details-container .aggregated-rule .aggregated-rule-name {
+      padding: 5px;
+      font-weight: bold;
+      font-size: 42px; }
+    .rule-details-container .aggregated-rule .aggregated-rule-details {
+      display: flex;
+      margin-top: 10px; }
+      .rule-details-container .aggregated-rule .aggregated-rule-details .aggregated-rule-column {
+        margin-right: 10px;
+        margin-left: 10px; }
+        .rule-details-container .aggregated-rule .aggregated-rule-details .aggregated-rule-column .aggregated-rule-details-header {
+          font-size: 12px;
+          text-transform: uppercase; }
+        .rule-details-container .aggregated-rule .aggregated-rule-details .aggregated-rule-column .aggregated-rule-details-field {
+          color: #fff;
+          margin-top: 8px; }
+          .rule-details-container .aggregated-rule .aggregated-rule-details .aggregated-rule-column .aggregated-rule-details-field .severity-icon {
+            width: 10px;
+            height: 10px;
+            margin-right: 5px; }
+  .rule-details-container .rule-subtitle {
+    margin-bottom: 16px; }
+  .rule-details-container .selection-bar {
+    display: flex;
+    border-bottom: 1px solid; }
+    .rule-details-container .selection-bar .selection-item, .rule-details-container .selection-bar .selection-item-active {
+      padding: 5px;
+      font-weight: bold;
+      font-size: 32px;
+      margin-right: 32px; }
+      .rule-details-container .selection-bar .selection-item:hover, .rule-details-container .selection-bar .selection-item-active:hover {
+        cursor: pointer;
+        color: #fff; }
+    .rule-details-container .selection-bar .selection-item-active {
+      border-bottom: 10px solid #afb9c3;
+      color: #fff; }
+  .rule-details-container .hide-content {
+    display: none; }

@@ -1,0 +1,20 @@
+/* PCS color variables */
+.devices-grid-container .last-refreshed-time {
+  margin-right: 10px;
+  color: #fff; }
+
+.devices-grid-container .last-refreshed-text {
+  margin-left: 10px;
+  margin-right: 6px;
+  color: #afb9c3; }
+
+.devices-grid-container .icon-sm {
+  width: 14px;
+  height: 14px;
+  margin-left: 2px; }
+
+.devices-grid-container .no-results {
+  font-size: 18px;
+  color: #fff;
+  display: flex;
+  justify-content: center; }

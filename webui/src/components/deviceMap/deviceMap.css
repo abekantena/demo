@@ -1,0 +1,71 @@
+/* PCS color variables */
+/* A helper file containing variables for the selawik font family names */
+.map-container {
+  font-family: "Selawik"; }
+  .map-container .loading-spinner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90%; }
+  .map-container .map-container {
+    position: relative;
+    overflow: hidden; }
+    .map-container .map-container .static-bing-map {
+      height: 356px; }
+    .map-container .map-container .static-map-modal {
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      top: 0px;
+      left: 0px;
+      right: 0px;
+      position: absolute;
+      bottom: 0px; }
+      .map-container .map-container .static-map-modal .static-text {
+        border: 1px solid #6a737c;
+        padding: 20px;
+        background-color: #121416; }
+        .map-container .map-container .static-map-modal .static-text .static-link {
+          padding-left: 5px;
+          text-decoration: none;
+          color: #fff; }
+          .map-container .map-container .static-map-modal .static-text .static-link:hover {
+            color: #afb9c3 !important;
+            text-decoration: underline; }
+  .map-container .infobox-close {
+    top: 1px !important;
+    margin-top: 3px !important; }
+  .map-container .infobox-close-img {
+    vertical-align: top;
+    background-color: white;
+    border-radius: 10px; }
+  .map-container .MicrosoftMap .Infobox {
+    border-radius: 0px !important;
+    background-color: #000 !important; }
+    .map-container .MicrosoftMap .Infobox .infobox-title {
+      font-family: inherit;
+      font-size: 10px !important;
+      padding: 5px !important;
+      margin-bottom: -2px !important;
+      color: #fff; }
+  .map-container .bing-map {
+    font-family: inherit;
+    height: 356px;
+    margin-left: -15px; }
+  .map-container .dashboard_device_map {
+    margin-left: -15px;
+    margin-right: -15px; }
+  .map-container .region-header {
+    margin-left: -10px;
+    height: 48px;
+    background-color: #242628;
+    padding: 15px 15px 15px 0px;
+    color: #afb9c3; }
+    .map-container .region-header .more {
+      float: right;
+      font-size: 12px; }
+    .map-container .region-header .device-location {
+      padding-left: 20px; }

@@ -1,0 +1,41 @@
+/* PCS color variables */
+.pcs-modal-container {
+  position: fixed;
+  top: 0;
+  left: 33.33%;
+  margin: auto;
+  display: flex;
+  flex-flow: column nowrap;
+  width: 33.33%;
+  border: 1px solid #7065fd;
+  background-color: #121416;
+  box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.9);
+  z-index: 1002;
+  /* z-index is to make sure the modal appears over the flyout */ }
+  .pcs-modal-container .pcs-modal-close {
+    text-align: right; }
+    .pcs-modal-container .pcs-modal-close .pcs-modal-close-btn {
+      display: inline-block;
+      padding: 8px 16px;
+      cursor: pointer; }
+      .pcs-modal-container .pcs-modal-close .pcs-modal-close-btn > img {
+        width: 16px;
+        height: 16px; }
+  .pcs-modal-container .pcs-modal-clickable-container {
+    display: flex;
+    flex-flow: row nowrap;
+    padding-bottom: 24px;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-decoration: none;
+    cursor: pointer; }
+    .pcs-modal-container .pcs-modal-clickable-container .pcs-modal-icon {
+      margin-right: 8px; }
+      .pcs-modal-container .pcs-modal-clickable-container .pcs-modal-icon > img {
+        width: 16px;
+        height: 16px; }
+    .pcs-modal-container .pcs-modal-clickable-container .pcs-modal-content {
+      color: #fff;
+      font-size: 14px; }
+    .pcs-modal-container .pcs-modal-clickable-container:hover .pcs-modal-content {
+      color: #afb9c3; }

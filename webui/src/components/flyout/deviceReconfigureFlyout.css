@@ -1,0 +1,86 @@
+/* PCS color variables */
+.device-configuration-container {
+  overflow-y: auto; }
+  .device-configuration-container .sub-heading {
+    color: #fff;
+    font-size: 16px;
+    padding-top: 32px;
+    padding-bottom: 16px; }
+  .device-configuration-container .sub-class-heading {
+    color: #afb9c3;
+    font-size: 14px;
+    padding-bottom: 5px; }
+  .device-configuration-container .job-name-container {
+    margin-top: 24px; }
+    .device-configuration-container .job-name-container .label-key {
+      font-weight: normal;
+      margin-bottom: 10px; }
+    .device-configuration-container .job-name-container input {
+      width: 248px !important;
+      height: 24px !important; }
+  .device-configuration-container .jobname-reference {
+    display: flex;
+    font-size: 13px;
+    color: #afb9c3;
+    padding-top: 5px; }
+    .device-configuration-container .jobname-reference .asterisk {
+      font-size: 26px;
+      margin-top: -5px; }
+  .device-configuration-container input {
+    font-size: 12px;
+    font-weight: normal;
+    margin-top: 2px;
+    padding-left: 15px; }
+    .device-configuration-container input:hover, .device-configuration-container input:active, .device-configuration-container input:focus {
+      border: 1px solid #afb9c3 !important; }
+  .device-configuration-container .common-reconfigure-container .name-value-type {
+    height: 40px;
+    font-weight: normal;
+    align-items: center;
+    margin-top: 16px;
+    width: 400px;
+    background-color: #1b1d1f; }
+  .device-configuration-container .common-reconfigure-container .value-for-existed-data {
+    border: none;
+    padding-top: 0 !important; }
+    .device-configuration-container .common-reconfigure-container .value-for-existed-data:hover, .device-configuration-container .common-reconfigure-container .value-for-existed-data:focus {
+      border: 1px solid #afb9c3 !important; }
+  .device-configuration-container .summary-container {
+    margin-top: 24px;
+    border-top: 1px solid #454a4e;
+    padding-top: 10px; }
+    .device-configuration-container .summary-container .affected-devices {
+      margin-top: 24px;
+      color: #afb9c3;
+      font-size: 12px; }
+      .device-configuration-container .summary-container .affected-devices .num-affected-devices {
+        font-size: 48px;
+        padding-right: 5px;
+        color: #fff; }
+      .device-configuration-container .summary-container .affected-devices .affected-devices-name {
+        color: #afb9c3;
+        font-size: 14px; }
+  .device-configuration-container .btn-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+    margin-top: 20px; }
+    .device-configuration-container .btn-container .pcs-btn {
+      height: 35px; }
+  .device-configuration-container .no-common-properties-container {
+    margin-top: 24px; }
+  .device-configuration-container .device-configuration-row {
+    display: flex;
+    flex-flow: row no-wrap;
+    margin-top: 24px;
+    width: 100%;
+    height: 40px;
+    background-color: #1b1d1f; }
+    .device-configuration-container .device-configuration-row .device-configuration-items {
+      display: flex;
+      flex-grow: 1;
+      color: #afb9c3;
+      font-size: 12px;
+      width: 33.33%;
+      overflow: hidden;
+      padding-left: 5px; }

@@ -1,0 +1,9 @@
+.page-content {
+  overflow: auto;
+  flex-grow: 1;
+  height: 100%;
+  position: relative;
+  padding: 16px; }
+  .page-content > .container-fluid {
+    margin-right: 0;
+    margin-left: -16px; }

@@ -1,0 +1,65 @@
+/* PCS color variables */
+.device-location-conatiner {
+  background-color: #1b1d1f;
+  height: 356px;
+  color: #afb9c3;
+  margin-left: 5px;
+  margin-right: 10px; }
+  .device-location-conatiner .region {
+    font-size: 20px; }
+  .device-location-conatiner .device-subheading {
+    font-size: 12px; }
+  .device-location-conatiner .alarm-warning-container {
+    margin-top: 125px; }
+    .device-location-conatiner .alarm-warning-container .total-alarms-container {
+      display: inline-block; }
+      .device-location-conatiner .alarm-warning-container .total-alarms-container .total-alarms {
+        color: #fc540a;
+        font-size: 23px;
+        display: inline-block; }
+      .device-location-conatiner .alarm-warning-container .total-alarms-container .triangle {
+        width: 30px;
+        height: 12px;
+        display: inline-block;
+        margin-left: -9px; }
+      .device-location-conatiner .alarm-warning-container .total-alarms-container .total-warnings {
+        margin-left: -15px !important; }
+      .device-location-conatiner .alarm-warning-container .total-alarms-container .critical {
+        font-size: 12px;
+        color: #fff; }
+    .device-location-conatiner .alarm-warning-container .warnings-container .total-warnings {
+      color: #fde870; }
+    .device-location-conatiner .alarm-warning-container .warnings-container .rectangle {
+      display: inline-block;
+      padding-top: 3px;
+      padding-left: 3px; }
+    .device-location-conatiner .alarm-warning-container .warnings-container .warnings {
+      font-size: 12px;
+      color: #fff;
+      margin-left: -15px; }
+  .device-location-conatiner .total-container {
+    display: inline-block;
+    color: #fff;
+    padding-top: 20px; }
+    .device-location-conatiner .total-container .total,
+    .device-location-conatiner .total-container .total-connected,
+    .device-location-conatiner .total-container .total-offline {
+      font-size: 23px; }
+    .device-location-conatiner .total-container .total-connected {
+      font-weight: bold; }
+    .device-location-conatiner .total-container .connected,
+    .device-location-conatiner .total-container .offline,
+    .device-location-conatiner .total-container .warnings {
+      font-size: 11px; }
+    .device-location-conatiner .total-container .connected {
+      margin-left: -10px; }
+    .device-location-conatiner .total-container .total-offline,
+    .device-location-conatiner .total-container .offline {
+      color: #afb9c3 !important;
+      text-decoration: none; }
+  .device-location-conatiner .total-devices {
+    color: #fff !important;
+    text-decoration: none; }
+  .device-location-conatiner .total-alarms-container,
+  .device-location-conatiner .total-container {
+    cursor: pointer; }

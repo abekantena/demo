@@ -1,0 +1,49 @@
+/* A helper file containing variables for the selawik font family names */
+.left-nav {
+  flex-shrink: 1;
+  background-color: #242628;
+  color: #afb9c3; }
+  .left-nav .leftnav-item-container {
+    display: flex;
+    flex-flow: row nowrap;
+    flex-shrink: 0;
+    align-items: center; }
+    .left-nav .leftnav-item-container.hamburger {
+      margin-bottom: 16px; }
+    .left-nav .leftnav-item-container .leftnav-item-icon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 48px;
+      width: 48px; }
+      .left-nav .leftnav-item-container .leftnav-item-icon > img {
+        height: 16px;
+        width: 16px; }
+    .left-nav .leftnav-item-container .leftnav-item-text {
+      display: none;
+      flex-grow: 1;
+      line-height: 48px; }
+  .left-nav a.leftnav-item-container,
+  .left-nav .leftnav-item-container.hamburger {
+    cursor: pointer;
+    color: #afb9c3;
+    text-decoration: none; }
+    .left-nav a.leftnav-item-container img,
+    .left-nav .leftnav-item-container.hamburger img {
+      opacity: 0.7; }
+    .left-nav a.leftnav-item-container.active, .left-nav a.leftnav-item-container:hover, .left-nav a.leftnav-item-container:focus,
+    .left-nav .leftnav-item-container.hamburger.active,
+    .left-nav .leftnav-item-container.hamburger:hover,
+    .left-nav .leftnav-item-container.hamburger:focus {
+      color: #fff;
+      background-color: #1b1d1f;
+      font-family: "Selawik Semibold"; }
+      .left-nav a.leftnav-item-container.active img, .left-nav a.leftnav-item-container:hover img, .left-nav a.leftnav-item-container:focus img,
+      .left-nav .leftnav-item-container.hamburger.active img,
+      .left-nav .leftnav-item-container.hamburger:hover img,
+      .left-nav .leftnav-item-container.hamburger:focus img {
+        opacity: 1; }
+  .left-nav.expanded {
+    width: 220px; }
+    .left-nav.expanded .leftnav-item-container .leftnav-item-text {
+      display: block; }

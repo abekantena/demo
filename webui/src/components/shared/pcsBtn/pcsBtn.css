@@ -1,0 +1,28 @@
+.pcs-btn {
+  display: flex;
+  flex-flow: row nowrap;
+  flex-shrink: 0;
+  align-items: center;
+  color: #fff;
+  padding: 0px 16px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none; }
+  .pcs-btn:hover {
+    background-color: #b0b9c3; }
+  .pcs-btn.primary {
+    color: #454a4e;
+    background-color: #b0b9c3; }
+    .pcs-btn.primary:hover {
+      background-color: #fff; }
+  .pcs-btn:disabled, .pcs-btn.primary:disabled {
+    background-color: transparent;
+    color: #454a4e;
+    cursor: auto; }
+  .pcs-btn .pcs-btn-svg {
+    width: 1.2em;
+    height: 1.2em;
+    margin-right: 0.7em; }
+  .pcs-btn .pcs-btn-value {
+    font-size: 1em; }

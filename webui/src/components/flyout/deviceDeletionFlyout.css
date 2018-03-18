@@ -1,0 +1,25 @@
+/* PCS color variables */
+.device-deletion-flyout {
+  padding: 0 15px;
+  font-size: 14px; }
+  .device-deletion-flyout .device-deletion-content .content-title {
+    font-size: 16px;
+    color: #fff;
+    margin: 16px 0; }
+  .device-deletion-flyout .device-deletion-content .simulated-device-info {
+    background-color: #121416;
+    padding: 16px;
+    text-align: center;
+    margin-top: 16px;
+    color: white;
+    border: 1px solid #6a737c; }
+    .device-deletion-flyout .device-deletion-content .simulated-device-info .pcs-tooltip-icon {
+      width: 16px;
+      margin-right: 8px; }
+  .device-deletion-flyout .device-deletion-content .btn-group {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 32px; }
+    .device-deletion-flyout .device-deletion-content .btn-group .pcs-btn {
+      height: 30px;
+      margin-left: 28px; }

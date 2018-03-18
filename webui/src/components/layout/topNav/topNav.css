@@ -1,0 +1,28 @@
+.top-nav {
+  height: 49px;
+  background-color: #121416;
+  display: flex;
+  flex-flow: row nowrap;
+  border-bottom: 1px solid #454A4E;
+  flex-shrink: 0; }
+  .top-nav .breadcrumbs {
+    flex-grow: 1;
+    color: #afb9c3;
+    line-height: 49px;
+    margin-left: 20px; }
+    .top-nav .breadcrumbs a {
+      color: inherit; }
+  .top-nav .project-name {
+    color: #afb9c3;
+    line-height: 49px;
+    margin-right: 20px; }
+  .top-nav .user-settings {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    border-left: 1px solid #454A4E; }
+    .top-nav .user-settings .settings-icon {
+      width: 20px;
+      margin-right: 20px;
+      margin-left: 20px;
+      cursor: pointer; }

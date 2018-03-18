@@ -1,0 +1,17 @@
+.pcs-renderer-cell {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center; }
+  .pcs-renderer-cell .pcs-renderer-icon {
+    width: 19px;
+    height: 19px;
+    margin-right: 10px; }
+  .pcs-renderer-cell .pcs-renderer-text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #afb9c3; }
+  .pcs-renderer-cell.highlight .pcs-renderer-icon,
+  .pcs-renderer-cell.highlight .pcs-renderer-text {
+    fill: #fff;
+    color: #fff; }

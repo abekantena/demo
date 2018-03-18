@@ -1,0 +1,29 @@
+/* PCS color variables */
+.pcs-error-modal-container {
+  display: flex;
+  flex-flow: column nowrap;
+  max-width: 600px;
+  border: 1px solid #4e555c;
+  background-color: #121416;
+  box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  position: relative;
+  width: 60%; }
+  .pcs-error-modal-container .pcs-error-modal-close-btn {
+    display: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    position: absolute;
+    right: 12px;
+    top: 12px; }
+    .pcs-error-modal-container .pcs-error-modal-close-btn > img {
+      width: 16px;
+      height: 16px; }
+  .pcs-error-modal-container .pcs-error-modal-header {
+    padding-bottom: 15px; }
+    .pcs-error-modal-container .pcs-error-modal-header img {
+      width: 16px;
+      height: 16px;
+      margin-right: 5px; }
+  .pcs-error-modal-container .pcs-error-modal-content {
+    overflow: auto; }

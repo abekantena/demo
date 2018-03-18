@@ -1,0 +1,14 @@
+/* PCS color variables */
+.rules-and-actions-conatiner .last-refreshed-time {
+  margin-right: 10px;
+  color: #fff; }
+
+.rules-and-actions-conatiner .last-refreshed-text {
+  margin-left: 10px;
+  margin-right: 6px;
+  color: #afb9c3; }
+
+.rules-and-actions-conatiner .icon-sm {
+  width: 14px;
+  height: 14px;
+  margin-left: 2px; }

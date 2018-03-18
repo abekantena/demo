@@ -1,0 +1,12 @@
+.kpiChart {
+  height: 100%;
+  width: 100%;
+  margin: 5px; }
+
+.kpiChartTitle {
+  text-align: center;
+  height: 20px;
+  margin: 5px; }
+
+.kpiChartArea {
+  height: calc(100% - 20px); }

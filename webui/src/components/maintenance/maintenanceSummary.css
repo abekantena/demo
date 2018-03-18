@@ -1,0 +1,52 @@
+/* PCS color variables */
+/* A helper file containing variables for the selawik font family names */
+.summary-container {
+  color: #afb9c3; }
+  .summary-container .summary-header {
+    font-weight: bold;
+    font-size: 48px; }
+  .summary-container .info-failed {
+    width: 16px;
+    height: 16px;
+    margin-top: 35px;
+    margin-right: 8px; }
+  .summary-container .summary-body {
+    display: flex;
+    font-size: 14px;
+    margin-top: 24px; }
+    .summary-container .summary-body .score {
+      font-size: 48px;
+      padding-right: 8px;
+      font-family: "Selawik Semilight";
+      margin-top: -16px;
+      color: #fff; }
+    .summary-container .summary-body .score-label {
+      width: 60px;
+      color: #afb9c3; }
+    .summary-container .summary-body .score-board, .summary-container .summary-body .alarm-score-board, .summary-container .summary-body .system-score-board {
+      display: flex;
+      flex-direction: row;
+      margin-right: 72px; }
+      .summary-container .summary-body .score-board .info-failed, .summary-container .summary-body .alarm-score-board .info-failed, .summary-container .summary-body .system-score-board .info-failed {
+        margin-top: 23px;
+        margin-right: 8px; }
+      .summary-container .summary-body .score-board .score-board-details, .summary-container .summary-body .alarm-score-board .score-board-details, .summary-container .summary-body .system-score-board .score-board-details {
+        margin-left: 32px; }
+        .summary-container .summary-body .score-board .score-board-details .details-content, .summary-container .summary-body .alarm-score-board .score-board-details .details-content, .summary-container .summary-body .system-score-board .score-board-details .details-content {
+          display: block; }
+          .summary-container .summary-body .score-board .score-board-details .details-content .alarm-count, .summary-container .summary-body .alarm-score-board .score-board-details .details-content .alarm-count, .summary-container .summary-body .system-score-board .score-board-details .details-content .alarm-count,
+          .summary-container .summary-body .score-board .score-board-details .details-content .job-count, .summary-container .summary-body .alarm-score-board .score-board-details .details-content .job-count, .summary-container .summary-body .system-score-board .score-board-details .details-content .job-count {
+            font-size: 16px;
+            color: #fff;
+            font-weight: bold; }
+          .summary-container .summary-body .score-board .score-board-details .details-content .alarm-text, .summary-container .summary-body .alarm-score-board .score-board-details .details-content .alarm-text, .summary-container .summary-body .system-score-board .score-board-details .details-content .alarm-text,
+          .summary-container .summary-body .score-board .score-board-details .details-content .job-text, .summary-container .summary-body .alarm-score-board .score-board-details .details-content .job-text, .summary-container .summary-body .system-score-board .score-board-details .details-content .job-text {
+            font-size: 14px;
+            color: #afb9c3;
+            padding-left: 5px; }
+        .summary-container .summary-body .score-board .score-board-details img, .summary-container .summary-body .alarm-score-board .score-board-details img, .summary-container .summary-body .system-score-board .score-board-details img {
+          margin-right: 8px; }
+    .summary-container .summary-body .alarm-score-board {
+      color: #fff; }
+    .summary-container .summary-body .system-score-board {
+      color: #fff; }

@@ -1,4 +1,5 @@
 {
+  "homepage": "https://github.com/abekantena/pcs-remote-monitoring-webui",
   "name": "remote-monitoring",
   "version": "0.1.0",
   "private": true,

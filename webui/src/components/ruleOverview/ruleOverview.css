@@ -1,0 +1,108 @@
+.rule-overview-flyout {
+  height: calc(100% - 20px); }
+  .rule-overview-flyout .title, .rule-overview-flyout .rule-overview-body .overview-item .title {
+    font-size: 14px;
+    color: #FFF;
+    vertical-align: middle;
+    text-align: left; }
+  .rule-overview-flyout .description, .rule-overview-flyout .rule-overview-body .overview-item .description, .rule-overview-flyout .rule-overview-body .overview-item .effectNumber .text, .rule-overview-flyout .rule-overview-body .overview-item .effectNumber .toggle-button .text-disable, .rule-overview-flyout .toggle-button .rule-overview-body .overview-item .effectNumber .text-disable {
+    font-size: 12px;
+    color: #afb9c3;
+    vertical-align: middle;
+    text-align: left;
+    margin-top: 10px; }
+  .rule-overview-flyout .divider {
+    border-bottom: solid #414649 2px; }
+  .rule-overview-flyout .toggle-button {
+    margin: 8px 0; }
+    .rule-overview-flyout .toggle-button .icon, .rule-overview-flyout .toggle-button .icon-enabled, .rule-overview-flyout .toggle-button .icon-disabled, .rule-overview-flyout .toggle-button .icon-enable, .rule-overview-flyout .toggle-button .icon-disable {
+      display: inline-block;
+      color: #AFB9C3;
+      height: 14px;
+      width: 14pt;
+      margin: 0 4px;
+      vertical-align: middle; }
+    .rule-overview-flyout .toggle-button .text, .rule-overview-flyout .toggle-button .text-disable {
+      display: inline-block;
+      font-size: 14px;
+      margin: 0 2px;
+      vertical-align: middle;
+      color: #FFF; }
+    .rule-overview-flyout .toggle-button .text-disable {
+      color: #afb9c3;
+      text-transform: uppercase; }
+    .rule-overview-flyout .toggle-button .icon-enabled {
+      background: url("../../assets/icons/Enabled.svg") no-repeat center;
+      background-size: contain; }
+    .rule-overview-flyout .toggle-button .icon-disabled {
+      background: url("../../assets/icons/DisabledRule.svg") no-repeat center;
+      background-size: contain; }
+    .rule-overview-flyout .toggle-button .icon-enable {
+      cursor: pointer;
+      width: 24pt;
+      background: url("../../assets/icons/Enable_toggle.svg") no-repeat center;
+      background-size: auto;
+      transition: background 500ms ease;
+      vertical-align: middle;
+      margin: 0 10px; }
+    .rule-overview-flyout .toggle-button .icon-disable {
+      cursor: pointer;
+      width: 24pt;
+      background: url("../../assets/icons/DISABLE_toggle.svg") no-repeat center;
+      background-size: auto;
+      transition: background 500ms ease;
+      vertical-align: middle;
+      margin: 0 10px; }
+  .rule-overview-flyout .rule-overview-header {
+    margin-top: 16px;
+    position: relative; }
+  .rule-overview-flyout .rule-overview-body {
+    overflow-scrolling: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin-top: 24px; }
+    .rule-overview-flyout .rule-overview-body .overview-item {
+      margin-bottom: 32px; }
+      .rule-overview-flyout .rule-overview-body .overview-item .title {
+        margin: 0; }
+      .rule-overview-flyout .rule-overview-body .overview-item .effectNumber {
+        margin-top: 16px; }
+        .rule-overview-flyout .rule-overview-body .overview-item .effectNumber .count {
+          display: inline-block;
+          font-size: 40px;
+          font-weight: bold;
+          color: #FFF;
+          margin-right: 10px;
+          line-height: 30px; }
+        .rule-overview-flyout .rule-overview-body .overview-item .effectNumber .text, .rule-overview-flyout .rule-overview-body .overview-item .effectNumber .toggle-button .text-disable, .rule-overview-flyout .toggle-button .rule-overview-body .overview-item .effectNumber .text-disable {
+          display: inline-block;
+          vertical-align: text-bottom; }
+  .rule-overview-flyout .rule-overview-summary {
+    margin-top: 32px;
+    margin-bottom: 64px; }
+  .rule-overview-flyout .button {
+    color: #FFF;
+    background-color: #121416;
+    border: none;
+    margin: 0 20px;
+    transition: background-color 500ms ease, color 500ms ease;
+    font-size: 14px;
+    float: right; }
+  .rule-overview-flyout .button::before {
+    content: '';
+    background-size: contain;
+    display: inline-block;
+    color: #AFB9C3;
+    height: 12px;
+    width: 12px;
+    margin: 0 8px;
+    transition: filter 500ms ease; }
+  .rule-overview-flyout .button-cancel:before {
+    background: url("../../assets/icons/X.svg") center no-repeat; }
+  .rule-overview-flyout .button-save::before {
+    background: url("../../assets/icons/Edit.svg") center no-repeat; }
+  .rule-overview-flyout .button:hover {
+    color: #000;
+    background-color: #afb9c3; }
+  .rule-overview-flyout .button-cancel:hover::before, .rule-overview-flyout .button-save:hover::before {
+    filter: invert(100%); }

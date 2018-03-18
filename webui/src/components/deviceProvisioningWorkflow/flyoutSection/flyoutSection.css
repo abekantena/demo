@@ -1,0 +1,9 @@
+.pcs-flyout-section {
+  display: flex;
+  flex-flow: column wrap; }
+  .pcs-flyout-section .pcs-header {
+    font-size: 16pt;
+    color: #FFF;
+    padding: 10px 10px 0px 10px; }
+  .pcs-flyout-section .pcs-content {
+    padding: 10px; }
